@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise", "Ses
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Methods - Out keyword", "Session 1 - out keyword - methods\Session 1 - Methods - Out keyword.csproj", "{65B5CE4E-C6FC-4CEB-948B-26583298159F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vare", "Vare\Vare.csproj", "{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{65B5CE4E-C6FC-4CEB-948B-26583298159F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B5CE4E-C6FC-4CEB-948B-26583298159F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B5CE4E-C6FC-4CEB-948B-26583298159F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F6C8CF7C-C359-4AFD-A443-24235AF6EF91} = {54E303E5-E97D-4789-8A8F-96A9CD96200D}
 		{65B5CE4E-C6FC-4CEB-948B-26583298159F} = {54E303E5-E97D-4789-8A8F-96A9CD96200D}
+		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E} = {FDD9C698-246B-44D8-9A91-63CE3ECD7745}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19919154-0E4C-49BC-9049-D2B0F2189866}
