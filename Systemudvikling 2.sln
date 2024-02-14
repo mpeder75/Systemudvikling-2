@@ -3,15 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1", "Session 1", "{54E303E5-E97D-4789-8A8F-96A9CD96200D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - In og Out keyword", "Session 1 - In og Out keyword", "{54E303E5-E97D-4789-8A8F-96A9CD96200D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2", "Session 2", "{FDD9C698-246B-44D8-9A91-63CE3ECD7745}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2 - class", "Session 2 - class", "{FDD9C698-246B-44D8-9A91-63CE3ECD7745}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise", "Session 1 - Exercise  Out\Session 1 - Exercise.csproj", "{F6C8CF7C-C359-4AFD-A443-24235AF6EF91}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Methods - Out keyword", "Session 1 - out keyword - methods\Session 1 - Methods - Out keyword.csproj", "{65B5CE4E-C6FC-4CEB-948B-26583298159F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vare", "Vare\Vare.csproj", "{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vare", "Vare\Vare.csproj", "{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 3", "Session 3", "{4B089D72-5E99-4CA6-AB4E-23B16D9A8A5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sessino 3 .- ArealBeregner", "Sessino 3 .- ArealBeregner\Sessino 3 .- ArealBeregner.csproj", "{1A5A2EED-9184-4670-9707-2B2337FFDE24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 4", "Session 4", "{4C00FF53-5922-4104-8614-7E34B9CAE950}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - out & ref keyword", "Session 4 - out & ref keyword\Session 4 - out & ref keyword.csproj", "{3C422948-F95E-468A-8752-062A4CAA148F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bog Kap 10 - Class", "Bog Kap 10 - Class", "{F4E894D0-38C8-4653-AFB4-DB5798AD3E3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bog Kap 10 - Class - TimeProject", "Bog Kap 10 - Class - TimeProject\Bog Kap 10 - Class - TimeProject.csproj", "{946FCBE2-F2CD-4130-BC53-9825059A3DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bog Kap 10 - Class - .this keyword", "Bog Kap 10 - Class - .this keyword\Bog Kap 10 - Class - .this keyword.csproj", "{40BFF1B9-C1A7-40F0-B0D2-A938558CD22F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +45,22 @@ Global
 		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5A2EED-9184-4670-9707-2B2337FFDE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5A2EED-9184-4670-9707-2B2337FFDE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5A2EED-9184-4670-9707-2B2337FFDE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5A2EED-9184-4670-9707-2B2337FFDE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C422948-F95E-468A-8752-062A4CAA148F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C422948-F95E-468A-8752-062A4CAA148F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C422948-F95E-468A-8752-062A4CAA148F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C422948-F95E-468A-8752-062A4CAA148F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946FCBE2-F2CD-4130-BC53-9825059A3DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946FCBE2-F2CD-4130-BC53-9825059A3DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946FCBE2-F2CD-4130-BC53-9825059A3DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946FCBE2-F2CD-4130-BC53-9825059A3DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BFF1B9-C1A7-40F0-B0D2-A938558CD22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BFF1B9-C1A7-40F0-B0D2-A938558CD22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BFF1B9-C1A7-40F0-B0D2-A938558CD22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BFF1B9-C1A7-40F0-B0D2-A938558CD22F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +69,10 @@ Global
 		{F6C8CF7C-C359-4AFD-A443-24235AF6EF91} = {54E303E5-E97D-4789-8A8F-96A9CD96200D}
 		{65B5CE4E-C6FC-4CEB-948B-26583298159F} = {54E303E5-E97D-4789-8A8F-96A9CD96200D}
 		{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E} = {FDD9C698-246B-44D8-9A91-63CE3ECD7745}
+		{1A5A2EED-9184-4670-9707-2B2337FFDE24} = {4B089D72-5E99-4CA6-AB4E-23B16D9A8A5F}
+		{3C422948-F95E-468A-8752-062A4CAA148F} = {4C00FF53-5922-4104-8614-7E34B9CAE950}
+		{946FCBE2-F2CD-4130-BC53-9825059A3DCA} = {F4E894D0-38C8-4653-AFB4-DB5798AD3E3B}
+		{40BFF1B9-C1A7-40F0-B0D2-A938558CD22F} = {F4E894D0-38C8-4653-AFB4-DB5798AD3E3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19919154-0E4C-49BC-9049-D2B0F2189866}
