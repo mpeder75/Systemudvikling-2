@@ -1,17 +1,19 @@
-﻿// Person array
+﻿// Person array initializeres
 Person[] simpsons = new Person[]
 {
-    new Person {Id = 1, Age = 50, FirstName = "Homer", LastName = "Simpson"},
-    new Person {Id = 2, Age = 2, FirstName = "Maggie", LastName = "Simpson"},
-    new Person {Id = 3, Age = 12, FirstName = "Bart", LastName = "Simpson"},
-    new Person {Id = 4, Age = 11, FirstName = "Lisa", LastName = "Simpson"},
-    new Person {Id = 5, Age = 50, FirstName = "Marge", LastName = "Simpson"},
-    new Person {Id = 6, Age = 60,FirstName = "Moe", LastName = "Szyslak"}
+    new Person (1, 50, "Homer", "Simpson"),
+    new Person (2, 2, "Maggie", "Simpson"),
+    new Person (3, 12, "Bart", "Simpson"),
+    new Person (4, 11, "Lisa", "Simpson"),
+    new Person (5, 50, "Marge", "Simpson"),
+    new Person (6,60, "Moe", "Szyslak")
 };
 
 // sorter array efter alder
 var orderedByAge = simpsons.OrderByDescending(person => person.Age);
+Console.WriteLine();
 
+// CompareTo
 int homerVsMaggie = simpsons[0].CompareTo(simpsons[1]);
 int homerVsMoe = simpsons[0].CompareTo(simpsons[5]);
 int homerVsMarge = simpsons[4].CompareTo(simpsons[0]);
@@ -20,29 +22,38 @@ Console.WriteLine();
 
 class Person : IComparable<Person>
 {
-    public int Id { get; set; }
-    public int Age { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
+    // prop har kun GET for at opnå encapsulation - settes i constructor
+    public int Id { get; }
+    public int Age { get; }
+    public string FirstName { get; }
+    public string LastName { get; }
 
-    public int CompareTo(Person? other)
+    public Person(int id, int age, string firstname, string lastname)
     {
-        if (other.Age == Age)
+        this.Id = id;
+        this.Age = age;
+        this.FirstName = firstname;
+        this.LastName = lastname;
+    }
+
+    public int CompareTo(Person? otherPerson)
+    {
+        if (otherPerson.Age == Age)
         {
-            Console.WriteLine($"{other.ToString()} har samme alder som {this.ToString()}");
+            Console.WriteLine($"{otherPerson.ToString()} har samme alder som {this.ToString()}");
             return 0;
         }
-        else if (other.Age < Age)
+        else if (otherPerson.Age < Age)
         {
-            Console.WriteLine($"{other.ToString()} er yngre end {this.ToString()}");
+            Console.WriteLine($"{otherPerson.ToString()} er yngre end {this.ToString()}");
             return 1;
         }
         else
         {
-            Console.WriteLine($"{other.ToString()} er ældre end {this.ToString()}");
+            Console.WriteLine($"{otherPerson.ToString()} er ældre end {this.ToString()}");
             return -1;
         }
-        //return Age.CompareTo(other.Age);
+        //return Age.CompareTo(otherPerson.Age);
     }
     public override string ToString()
     {
