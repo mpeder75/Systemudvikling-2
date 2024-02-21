@@ -35,7 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - IComparable", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - IEquatable", "Session 4 - IEquatable\Session 4 - IEquatable.csproj", "{39A5B9FD-6E32-4E52-B316-C56B243F4E35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 4 - Override ToString()", "Session 4 - Override ToString()\Session 4 - Override ToString().csproj", "{557FC3E2-B026-453E-AD12-FC273B6DDDD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - Override ToString()", "Session 4 - Override ToString()\Session 4 - Override ToString().csproj", "{557FC3E2-B026-453E-AD12-FC273B6DDDD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 5", "Session 5", "{184C541B-EC16-4506-887B-A8B6B16464F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Dynamiske Datastrukturer", "Session 5 - Dynamiske Datastrukturer\Session 5 - Dynamiske Datastrukturer.csproj", "{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 5 - List", "Session 5 - List\Session 5 - List.csproj", "{47E293F4-44A6-4F9A-8619-6A160A821D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +97,14 @@ Global
 		{557FC3E2-B026-453E-AD12-FC273B6DDDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{557FC3E2-B026-453E-AD12-FC273B6DDDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{557FC3E2-B026-453E-AD12-FC273B6DDDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E293F4-44A6-4F9A-8619-6A160A821D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E293F4-44A6-4F9A-8619-6A160A821D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E293F4-44A6-4F9A-8619-6A160A821D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E293F4-44A6-4F9A-8619-6A160A821D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +122,8 @@ Global
 		{623BB1AE-B067-4C6A-B035-D1385B0700FD} = {4C00FF53-5922-4104-8614-7E34B9CAE950}
 		{39A5B9FD-6E32-4E52-B316-C56B243F4E35} = {4C00FF53-5922-4104-8614-7E34B9CAE950}
 		{557FC3E2-B026-453E-AD12-FC273B6DDDD9} = {4C00FF53-5922-4104-8614-7E34B9CAE950}
+		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD} = {184C541B-EC16-4506-887B-A8B6B16464F4}
+		{47E293F4-44A6-4F9A-8619-6A160A821D23} = {184C541B-EC16-4506-887B-A8B6B16464F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19919154-0E4C-49BC-9049-D2B0F2189866}
