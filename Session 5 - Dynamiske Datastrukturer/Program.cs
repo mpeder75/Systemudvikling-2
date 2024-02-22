@@ -15,6 +15,10 @@ s.PrintAll();
 // PrintOdd
 s.PrintOddNodes();
 
+// Sum
+double result = Sum(s);
+
+
 
 class LinkedList
 {

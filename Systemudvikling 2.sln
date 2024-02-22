@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Methods - Out k
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vare", "Vare\Vare.csproj", "{F5CE3F3A-AD35-4DD3-8F69-E14B1EF9D52E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 3", "Session 3", "{4B089D72-5E99-4CA6-AB4E-23B16D9A8A5F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 3 - arealberegner", "Session 3 - arealberegner", "{4B089D72-5E99-4CA6-AB4E-23B16D9A8A5F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sessino 3 .- ArealBeregner", "Sessino 3 .- ArealBeregner\Sessino 3 .- ArealBeregner.csproj", "{1A5A2EED-9184-4670-9707-2B2337FFDE24}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 4", "Session 4", "{4C00FF53-5922-4104-8614-7E34B9CAE950}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 4 - Interfaces", "Session 4 - Interfaces", "{4C00FF53-5922-4104-8614-7E34B9CAE950}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - out & ref keyword", "Session 4 - out & ref keyword\Session 4 - out & ref keyword.csproj", "{3C422948-F95E-468A-8752-062A4CAA148F}"
 EndProject
