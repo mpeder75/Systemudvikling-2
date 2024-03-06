@@ -41,6 +41,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 5", "Session 5", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Dynamiske Datastrukturer", "Session 5 - Dynamiske Datastrukturer\Session 5 - Dynamiske Datastrukturer.csproj", "{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 6 - LinkedList", "Session 6 - LinkedList", "{53280BF5-8018-474E-A60E-5D994FC8DF51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 7 - Stack og Queue", "Session 7 - Stack og Queue", "{ACA1BE6A-EC86-42A0-BF41-19141F4D0434}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 10 - Binary search tree", "Session 10 - Binary search tree", "{EE7A2548-F67C-488E-AC19-4470B3877094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 10 - Binary search tree", "Session 10 - Binary search tree\Session 10 - Binary search tree.csproj", "{D1462DDE-117C-426E-9429-6D641D3EEF32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 10.1 - BST - Insertion", "Session 10 - Binary search tree - Insertion\Session 10.1 - BST - Insertion.csproj", "{A8544A49-DE24-4D00-A1FE-D8FDCB455C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 10.2 - BST- traversal og print", "Session 10.2 - BST- traversal og print\Session 10.2 - BST- traversal og print.csproj", "{34512112-00BF-4BA3-A747-44385E64E455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 10.3 - BST - Get &  Min &  Max", "Session 10.3 - BST - Get &  Min &  Max\Session 10.3 - BST - Get &  Min &  Max.csproj", "{854C9470-3831-417E-8DD5-EEF570C39435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 10.4 - BST - Exercises", "Session 10.4 - BST - Exercises\Session 10.4 - BST - Exercises.csproj", "{4ED66983-B9EF-48C9-BFAE-C4505022AA0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +115,26 @@ Global
 		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1462DDE-117C-426E-9429-6D641D3EEF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1462DDE-117C-426E-9429-6D641D3EEF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1462DDE-117C-426E-9429-6D641D3EEF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1462DDE-117C-426E-9429-6D641D3EEF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8544A49-DE24-4D00-A1FE-D8FDCB455C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8544A49-DE24-4D00-A1FE-D8FDCB455C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8544A49-DE24-4D00-A1FE-D8FDCB455C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8544A49-DE24-4D00-A1FE-D8FDCB455C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34512112-00BF-4BA3-A747-44385E64E455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34512112-00BF-4BA3-A747-44385E64E455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34512112-00BF-4BA3-A747-44385E64E455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34512112-00BF-4BA3-A747-44385E64E455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854C9470-3831-417E-8DD5-EEF570C39435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854C9470-3831-417E-8DD5-EEF570C39435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854C9470-3831-417E-8DD5-EEF570C39435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854C9470-3831-417E-8DD5-EEF570C39435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED66983-B9EF-48C9-BFAE-C4505022AA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED66983-B9EF-48C9-BFAE-C4505022AA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED66983-B9EF-48C9-BFAE-C4505022AA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED66983-B9EF-48C9-BFAE-C4505022AA0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +153,11 @@ Global
 		{39A5B9FD-6E32-4E52-B316-C56B243F4E35} = {4C00FF53-5922-4104-8614-7E34B9CAE950}
 		{557FC3E2-B026-453E-AD12-FC273B6DDDD9} = {4C00FF53-5922-4104-8614-7E34B9CAE950}
 		{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD} = {184C541B-EC16-4506-887B-A8B6B16464F4}
+		{D1462DDE-117C-426E-9429-6D641D3EEF32} = {EE7A2548-F67C-488E-AC19-4470B3877094}
+		{A8544A49-DE24-4D00-A1FE-D8FDCB455C77} = {EE7A2548-F67C-488E-AC19-4470B3877094}
+		{34512112-00BF-4BA3-A747-44385E64E455} = {EE7A2548-F67C-488E-AC19-4470B3877094}
+		{854C9470-3831-417E-8DD5-EEF570C39435} = {EE7A2548-F67C-488E-AC19-4470B3877094}
+		{4ED66983-B9EF-48C9-BFAE-C4505022AA0B} = {EE7A2548-F67C-488E-AC19-4470B3877094}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19919154-0E4C-49BC-9049-D2B0F2189866}
