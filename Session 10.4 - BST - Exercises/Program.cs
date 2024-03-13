@@ -38,7 +38,6 @@ Console.WriteLine("\nLeafs:");
 myTree.PrintLeaves();
 
 
-
 // 1. TreeNode class - Står for validering, traversal, Min, Max, Sum, Insert af nodes
 class TreeNode
 {

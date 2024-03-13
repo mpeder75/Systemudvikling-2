@@ -3,6 +3,8 @@
 int[] talArray = { 12, 9, 5, 4, 16, 3, 8, 1 };
 BubbleSort(talArray);
 
+
+
 for (int i = 0; i < talArray.Length; i++)
 {
     Console.WriteLine(talArray[i] + " ");
