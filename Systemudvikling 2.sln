@@ -65,7 +65,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 12 - Bubblesort, Me
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 12 - Bubblesort", "Session 12 - Bubblesort\Session 12 - Bubblesort.csproj", "{864C3012-2B4A-41BB-BCC8-3C80061326D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 12 - Mergesort", "Session 12 - Mergesort\Session 12 - Mergesort.csproj", "{0B1D81CF-8315-4DDC-9017-0E737E7082FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 12 - Mergesort", "Session 12 - Mergesort\Session 12 - Mergesort.csproj", "{0B1D81CF-8315-4DDC-9017-0E737E7082FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 13 - Interfaces", "Session 13 - Interfaces", "{DA9FEDAA-8881-4BCC-881F-90BAC74CCD11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 13 - Interfaces Exercise", "Session 13 - Interfaces\Session 13 - Interfaces Exercise.csproj", "{93E9A9C2-3946-4B06-96C2-02CCA85208E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 13 - ReadWrite from files", "Session 13 - ReadWrite from files\Session 13 - ReadWrite from files.csproj", "{03216CF0-5B4D-44D9-86CF-A444538F03F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +163,14 @@ Global
 		{0B1D81CF-8315-4DDC-9017-0E737E7082FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B1D81CF-8315-4DDC-9017-0E737E7082FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B1D81CF-8315-4DDC-9017-0E737E7082FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E9A9C2-3946-4B06-96C2-02CCA85208E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E9A9C2-3946-4B06-96C2-02CCA85208E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E9A9C2-3946-4B06-96C2-02CCA85208E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E9A9C2-3946-4B06-96C2-02CCA85208E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03216CF0-5B4D-44D9-86CF-A444538F03F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03216CF0-5B4D-44D9-86CF-A444538F03F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03216CF0-5B4D-44D9-86CF-A444538F03F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03216CF0-5B4D-44D9-86CF-A444538F03F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,6 +197,8 @@ Global
 		{A669AB90-8F83-4E0D-95B6-8BFA96666D29} = {D43B2786-D264-46D1-8378-0C1CACF23FFC}
 		{864C3012-2B4A-41BB-BCC8-3C80061326D9} = {68672666-3908-426B-80D8-58ACE86B3004}
 		{0B1D81CF-8315-4DDC-9017-0E737E7082FA} = {68672666-3908-426B-80D8-58ACE86B3004}
+		{93E9A9C2-3946-4B06-96C2-02CCA85208E5} = {DA9FEDAA-8881-4BCC-881F-90BAC74CCD11}
+		{03216CF0-5B4D-44D9-86CF-A444538F03F0} = {DA9FEDAA-8881-4BCC-881F-90BAC74CCD11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19919154-0E4C-49BC-9049-D2B0F2189866}

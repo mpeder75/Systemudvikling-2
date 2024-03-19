@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Session_13___Interfaces
+{
+    internal interface IDatabase
+    {
+        // HVORDAN data gemmes bestemmes af Database.cs
+
+        void ReadFromTextFile();
+        bool WriteToTextFile(string textToAdd);
+        bool EmptyFile();
+        bool PathHandler();
+    }
+}
