@@ -12,7 +12,6 @@ namespace Session_13___Interfaces
     {
         string path = @"C:\DatabaseFile.txt";
 
-
         public void ReadFromTextFile()
         {
             if (File.Exists(path))
@@ -31,6 +30,7 @@ namespace Session_13___Interfaces
                 }
             }
         }
+
 
         public bool WriteToTextFile(string textToAdd)
         {
@@ -52,6 +52,7 @@ namespace Session_13___Interfaces
             }
         }
 
+
         public bool EmptyFile()
         {
             if (PathHandler())
@@ -63,6 +64,7 @@ namespace Session_13___Interfaces
             }
             return false;
         }
+
 
         public bool PathHandler()
         {
