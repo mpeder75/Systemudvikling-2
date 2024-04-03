@@ -1,6 +1,4 @@
 ﻿
-
-
 StringDelegate stringDelegate = ToUpperCase;
 WriteOutput("this is a lowercase string", stringDelegate);
 

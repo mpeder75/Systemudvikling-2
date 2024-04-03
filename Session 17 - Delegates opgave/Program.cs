@@ -8,9 +8,10 @@ Print("Circle", circleArea);
 double elipseArea = BeregnAreal(-1, 1, Beregninger.CalculateElipseArea);
 Print("Elipse", elipseArea);
 
-
 double squareArea = BeregnAreal(0, 2, Beregninger.CalculateSquare);
 Print("Square", squareArea);
+
+
 
 
 
@@ -33,20 +34,22 @@ void Print(string functionName, double area)
 }
 
 
+
+
 // class der indeholder logik til ekstra beregninger
 class Beregninger
 {
     public static double CalculateCircleArea(double x)
     {
-        double radius = 1.0; 
+        double radius = 1.0;
         double y = Math.Sqrt(radius * radius - x * x);
         return y;
     }
 
     public static double CalculateElipseArea(double x)
     {
-        double semiMajorAxis = 1.0; 
-        double semiMinorAxis = 0.5; 
+        double semiMajorAxis = 1.0;
+        double semiMinorAxis = 0.5;
 
         double y = semiMinorAxis * Math.Sqrt(1 - (x * x) / (semiMajorAxis * semiMajorAxis));
         return y;

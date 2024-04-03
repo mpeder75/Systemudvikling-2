@@ -8,7 +8,6 @@ namespace Session_13___Interfaces
 {
     internal interface INewDatabaseType
     {
-
-        public List<string> BigBooty { get; set; }
+        public List<string> NewDatabase { get; set; }
     }
 }
