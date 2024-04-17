@@ -37,11 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - IEquatable", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - Override ToString()", "Session 4 - Override ToString()\Session 4 - Override ToString().csproj", "{557FC3E2-B026-453E-AD12-FC273B6DDDD9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 5 - lINKEDlIST", "Session 5 - lINKEDlIST", "{184C541B-EC16-4506-887B-A8B6B16464F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 5 - LinkedList", "Session 5 - LinkedList", "{184C541B-EC16-4506-887B-A8B6B16464F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Dynamiske Datastrukturer", "Session 5 - Dynamiske Datastrukturer\Session 5 - Dynamiske Datastrukturer.csproj", "{1D4E9D48-F79B-4081-B7D8-9B33E45F14AD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 6 - LinkedList", "Session 6 - LinkedList", "{53280BF5-8018-474E-A60E-5D994FC8DF51}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 7 - Stack og Queue", "Session 7 - Stack og Queue", "{ACA1BE6A-EC86-42A0-BF41-19141F4D0434}"
 EndProject
