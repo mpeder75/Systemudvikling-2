@@ -18,7 +18,10 @@ s.PrintOddNodes();
 // Sum
 double result = Sum(s);
 
-
+double Sum(LinkedList s)
+{
+    throw new NotImplementedException();
+}
 
 class LinkedList
 {

@@ -10,6 +10,7 @@ SKAL indeholde:
   
 */
 
+Singleton myInstance = Singleton.getInstance();
 
 
 class Singleton
