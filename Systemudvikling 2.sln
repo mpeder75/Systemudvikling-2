@@ -79,9 +79,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 16 - Singleton exam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 17 - Delegates", "Session 17 - Delegates", "{B4B01CA1-9C2E-4C64-A365-1E45BEB160B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 17 - Delegates opgave", "Session 17 - Delegates opgave\Session 17 - Delegates opgave.csproj", "{D5FCB427-9479-4DB4-AF20-84BF5BC97693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 17 - Delegates opgave", "Session 17 - Delegates opgave\Session 17 - Delegates opgave.csproj", "{D5FCB427-9479-4DB4-AF20-84BF5BC97693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 17 - Delegates eksempel", "Session 17 - Delegates eksempel\Session 17 - Delegates eksempel.csproj", "{5525A411-79A5-4A36-9206-079CC2E98EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 17 - Delegates eksempel", "Session 17 - Delegates eksempel\Session 17 - Delegates eksempel.csproj", "{5525A411-79A5-4A36-9206-079CC2E98EA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 18 - Strategy", "Session 18 - Strategy", "{76F05B22-D423-44A0-8657-39514719BFBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 18 - Strategy structual code", "Session 18 - Strategy structual code\Session 18 - Strategy structual code.csproj", "{FEFD330A-62FA-458F-AF57-979CB828C358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 18 - Strategy Eksempel 1", "Session 18 - Strategy Eksempel 1\Session 18 - Strategy Eksempel 1.csproj", "{ACCB502D-F6C8-4028-9BE9-8F312BAA0DC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +203,14 @@ Global
 		{5525A411-79A5-4A36-9206-079CC2E98EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5525A411-79A5-4A36-9206-079CC2E98EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5525A411-79A5-4A36-9206-079CC2E98EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFD330A-62FA-458F-AF57-979CB828C358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFD330A-62FA-458F-AF57-979CB828C358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFD330A-62FA-458F-AF57-979CB828C358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFD330A-62FA-458F-AF57-979CB828C358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCB502D-F6C8-4028-9BE9-8F312BAA0DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCB502D-F6C8-4028-9BE9-8F312BAA0DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCB502D-F6C8-4028-9BE9-8F312BAA0DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCB502D-F6C8-4028-9BE9-8F312BAA0DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +243,8 @@ Global
 		{F0A52064-F0C9-4BE9-B48A-36ACF89CD573} = {4372FE0A-BC32-4589-9983-D94472A69538}
 		{D5FCB427-9479-4DB4-AF20-84BF5BC97693} = {B4B01CA1-9C2E-4C64-A365-1E45BEB160B1}
 		{5525A411-79A5-4A36-9206-079CC2E98EA1} = {B4B01CA1-9C2E-4C64-A365-1E45BEB160B1}
+		{FEFD330A-62FA-458F-AF57-979CB828C358} = {76F05B22-D423-44A0-8657-39514719BFBB}
+		{ACCB502D-F6C8-4028-9BE9-8F312BAA0DC6} = {76F05B22-D423-44A0-8657-39514719BFBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19919154-0E4C-49BC-9049-D2B0F2189866}
